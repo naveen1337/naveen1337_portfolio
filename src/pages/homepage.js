@@ -1,11 +1,14 @@
 import NavBar from "../components/navbar"
 import IntroSection from "../components/IntroSection"
 import styles from "../styles"
+// import {
+//     Link
+//   } from "react-router-dom";
 
 export default function HomePage(){
     return (
         <div>
-            <div className="md:h-3/4" style={styles.introSectionGradient}>
+            <div className="md:h-screen p-6" style={styles.introSectionGradient}>
             <NavBar/>
             <IntroSection/>
             </div>
