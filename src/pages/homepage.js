@@ -8,7 +8,7 @@ import styles from "../styles"
 export default function HomePage(){
     return (
         <div>
-            <div className="md:h-screen p-6" style={styles.introSectionGradient}>
+            <div className="md:h-screen p-6 bg-black" >
             <NavBar/>
             <IntroSection/>
             </div>
